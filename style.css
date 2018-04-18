@@ -1,0 +1,129 @@
+/*  Text Styles */
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: #2C3E50;
+}
+
+h1 {
+	font-size: 32px;
+	font-family: "Courier New", courier, monospace;
+	text-align: center;
+	letter-spacing: 10px;
+	padding-top: -10px;
+	font-weight: bold;
+}
+
+h6 { /* This should only be used as deepspace heading */
+	font-size: 26px;
+	font-family: "Courier New", courier, monospace;
+	letter-spacing: 10px;
+	text-align: center;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: "Courier New", courier, monospace;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 18px;
+	font-family: "Courier New", courier, monospace;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 18px;
+	font-family: "Courier New", courier, monospace;
+	font-weight: bold;
+	color: #45B39D;
+	text-align: center;
+}
+
+h5 { /* Text emphasis.*/
+	font-size: 14px;
+	font-family: "Courier New", courier, monospace;
+	font-weight: bold;
+	color: #45B39D;
+	text-align: center;
+	padding-left: 100px;
+	max-width: 800px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+p { 
+	padding-left: 100px;
+	max-width: 800px;
+	text-align: justify;
+}
+
+ul {
+	padding-left: 150px;
+	max-width: 600px;
+}
+
+table {
+	padding-left: 150px;
+	text-align: left;
+	border-spacing: 20px;
+}
+
+
+hr {
+	width: 70%;
+	margin-top: 20px;
+}
+
+a {
+	color: #5499C7;
+}
+
+/* ID Selectors */
+#summary {
+	width: 80%;
+	max-width:900px;
+	height: auto;
+	padding: 2px 20px;
+	margin: 0 auto;
+}
+
+/* Class Selectors */
+.mainbody {
+	width: 90%;
+	max-width:1200px;
+	height: auto;
+	padding: 2px 20px;
+	margin: 50px auto 25px;
+}
+
+.multicol {
+	width: 100%;
+	overflow: hidden;
+}
+
+.threecol {
+	width: 33%;
+	float: left;	
+}
+
+.twocol {
+	width: 50%;
+	float: left;
+}
+
+.onefig { 
+	align: center;
+}
+
+
+.container{
+	display: table;
+	width: 80%;
+}
+
+.concol{
+	display: table-cell;
+}
